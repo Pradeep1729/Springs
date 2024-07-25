@@ -1,0 +1,19 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+ int k,F,x;
+
+ cout<<"Enter force applied on spring= ";
+ cin>>F;
+
+ cout<<"\nEnter the displacement on spring= ";
+ cin >>x;
+
+ k=F/x;
+
+ cout<<"\nThe spring constant of spring is ";
+ cout<<k<<endl;
+}
+ 
